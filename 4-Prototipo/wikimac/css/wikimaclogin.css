@@ -1,0 +1,909 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF url(../images/FundoBiblioGest2.png) no-repeat;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+    color: #666666;
+}
+
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+input, textarea, select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+    color: #666666;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: normal;
+    color: #4F789F;
+}
+
+h1 {
+    letter-spacing: -1px;
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+p, ul, ol {
+    margin-bottom: 1.6em;
+}
+
+p {
+}
+
+blockquote {
+    font-style: italic;
+}
+
+ul {
+}
+
+ol {
+}
+
+a {
+    color: #4F789F;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+small {
+}
+
+hr {
+    display: none;
+}
+
+img {
+    border: none;
+}
+
+img.left {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+img.right {
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+
+
+#headerLOGIN {
+    width: 850px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#header {
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#heade2 {
+    alignment-adjust: central;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: black;
+}
+#headerusuario {
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+/*
+
+#menu {
+        width: 900px;
+        height: 100px;
+}
+
+#menu ul {
+        margin: 0;
+        padding: 25px 0;
+        list-style: none;
+}
+
+#menu li {
+        display: inline;
+}
+
+#menu a {
+        display: block;
+        float: left;
+        width: 150px;
+        height: 38px;
+        padding: 12px 0 0 0;
+        text-align: center;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-size: 1.8em;
+}
+
+#menu .active a {
+        background: #B3EAFD url(images/img02.jpg) no-repeat;
+}
+
+*/
+#cssmenu2
+{
+
+    position: absolute;
+    top: 25px;
+    left: 350px;
+    text-align: center;
+}
+#cssmenu
+{
+
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    text-align: center;
+}
+
+#cssmenu,
+#cssmenu2 ul,
+#cssmenu2 ul li,
+#cssmenu2 ul li a {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+#cssmenu2:before,
+#cssmenu2:after,
+#cssmenu2 > ul:before,
+#cssmenu2 > ul:after {
+    content: '';
+    display: table;
+}
+#cssmenu2:after,
+#cssmenu2 > ul:after {
+    clear: both;
+}
+#cssmenu2 a {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#cssmenu2 ul {
+    width: 100%;
+    background: #eaf1f7;
+    border-radius: 6px;
+
+    -webkit-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    -o-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    -ms-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+#cssmenu2 ul > li {
+    float: left;
+    list-style: none;
+}
+#cssmenu2 ul > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 17px 74px;
+    position: relative;
+}
+#cssmenu2 ul > li > a:hover {
+    background: #a2c9ea ;
+    -webkit-box-shadow: inset 0 0 1px #1e2e4f;
+    -o-box-shadow: inset 0 0 1px #1e2e4f;
+    -moz-box-shadow: inset 0 0 1px #1e2e4f;
+    -ms-box-shadow: inset 0 0 1px #1e2e4f;
+    box-shadow: inset 0 0 1px #1e2e4f;
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+#cssmenu2 ul > li > a:hover:before {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    border: 1px solid white;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -1px;
+    opacity: .2;
+}
+#cssmenu2 ul > li > a:hover:after {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    border: 1px solid white;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -1px;
+    opacity: .2;
+}
+#cssmenu2 > ul > li > ul {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+#cssmenu2 > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    border-radius: 0 0 3px 3px;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+#cssmenu2 > ul > li > ul {
+    width: 200px;
+    position: absolute;
+}
+#cssmenu2 > ul > li > ul > li {
+    float: none;
+    position: relative;
+}
+#cssmenu2 > ul > li > ul > li > ul {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+#cssmenu2 > ul > li > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+}
+#cssmenu2 > ul > li > ul > li > ul {
+    left: 200px;
+    top: 1px;
+    width: 200px;
+}
+#cssmenu2 > ul > li > ul > li > ul > li {
+    float: none;
+}
+/*---------------------***************************------------------------*/
+#cssmenu
+{
+
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    text-align: center;
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+#cssmenu:before,
+#cssmenu:after,
+#cssmenu > ul:before,
+#cssmenu > ul:after {
+    content: '';
+    display: table;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+    clear: both;
+}
+#cssmenu a {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#cssmenu ul {
+    width: 100%;
+    background: #eaf1f7;
+    border-radius: 6px;
+
+    -webkit-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    -o-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    -ms-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+#cssmenu ul > li {
+    float: left;
+    list-style: none;
+}
+#cssmenu ul > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 17px 74px;
+    position: relative;
+}
+#cssmenu ul > li > a:hover {
+    background: #a2c9ea ;
+    -webkit-box-shadow: inset 0 0 1px #1e2e4f;
+    -o-box-shadow: inset 0 0 1px #1e2e4f;
+    -moz-box-shadow: inset 0 0 1px #1e2e4f;
+    -ms-box-shadow: inset 0 0 1px #1e2e4f;
+    box-shadow: inset 0 0 1px #1e2e4f;
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+#cssmenu ul > li > a:hover:before {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    border: 1px solid white;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -1px;
+    opacity: .2;
+}
+#cssmenu ul > li > a:hover:after {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    border: 1px solid white;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -1px;
+    opacity: .2;
+}
+#cssmenu > ul > li > ul {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+#cssmenu > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    border-radius: 0 0 3px 3px;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+#cssmenu > ul > li > ul {
+    width: 200px;
+    position: absolute;
+}
+#cssmenu > ul > li > ul > li {
+    float: none;
+    position: relative;
+}
+#cssmenu > ul > li > ul > li > ul {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+#cssmenu > ul > li > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+}
+#cssmenu > ul > li > ul > li > ul {
+    left: 200px;
+    top: 1px;
+    width: 200px;
+}
+#cssmenu > ul > li > ul > li > ul > li {
+    float: none;
+}
+
+#cssmenu1
+{
+
+    position: absolute;
+    top: 25px;
+    left: 370px;
+    text-align: center;
+}
+
+#cssmenu1,
+#cssmenu1 ul,
+#cssmenu1 ul li,
+#cssmenu1 ul li a {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+#cssmenu1:before,
+#cssmenu1:after,
+#cssmenu1 > ul:before,
+#cssmenu1 > ul:after {
+    content: '';
+    display: table;
+}
+#cssmenu1:after,
+#cssmenu1 > ul:after {
+    clear: both;
+}
+#cssmenu1 a {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#cssmenu1 ul {
+    width: 100%;
+    background: #eaf1f7;
+    border-radius: 6px;
+
+    -webkit-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    -o-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    -ms-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+#cssmenu1 ul > li {
+    float: left;
+    list-style: none;
+}
+#cssmenu1 ul > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 17px 74px;
+    position: relative;
+}
+#cssmenu1 ul > li > a:hover {
+    background: #a2c9ea ;
+    -webkit-box-shadow: inset 0 0 1px #1e2e4f;
+    -o-box-shadow: inset 0 0 1px #1e2e4f;
+    -moz-box-shadow: inset 0 0 1px #1e2e4f;
+    -ms-box-shadow: inset 0 0 1px #1e2e4f;
+    box-shadow: inset 0 0 1px #1e2e4f;
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    transition: all ease .3s;
+}
+#cssmenu1 ul > li > a:hover:before {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    border: 1px solid white;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -1px;
+    opacity: .2;
+}
+#cssmenu1 ul > li > a:hover:after {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    border: 1px solid white;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -1px;
+    opacity: .2;
+}
+#cssmenu1 > ul > li > ul {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+#cssmenu1 > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    border-radius: 0 0 3px 3px;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+#cssmenu1 > ul > li > ul {
+    width: 200px;
+    position: absolute;
+}
+#cssmenu1 > ul > li > ul > li {
+    float: none;
+    position: relative;
+}
+#cssmenu1 > ul > li > ul > li > ul {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+#cssmenu1 > ul > li > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+}
+#cssmenu1 > ul > li > ul > li > ul {
+    left: 200px;
+    top: 1px;
+    width: 200px;
+}
+#cssmenu1 > ul > li > ul > li > ul > li {
+    float: none;
+}
+
+#logo {
+    text-transform: capitalize;
+    clear: both;
+    width: 900px;
+    height: 200px;
+}
+
+#logo h1, #logo h2 {
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+#logo h1 {
+    padding: 70px 0 0 0;
+    font-size: 6em;
+}
+
+#logo h2 {
+    padding: 0 0 0 100px;
+    font-size: 2.5em;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #000000;
+}
+#logo3 {
+    text-transform: capitalize;
+    clear: both;
+    width: 900px;
+    height: 200px;
+}
+
+#logo3 h1, #logo3 h2 {
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+#logo3 h1 {
+    padding: 70px 0 0 200px;
+    font-size: 6em;
+}
+
+#logo3 h2 {
+    padding: 0 0 0 300px;
+    font-size: 2.5em;
+}
+
+#logo3 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+#page {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+#pagelogin {
+    width: 225px;
+    margin: 0 auto;
+    padding: 48px 0;
+}
+#pagepesquisar {
+    width: 225px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+#pagepeservicos {
+    width: 225px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+#pagehorario {
+    width: 225px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+
+
+
+#content {
+    float: right;
+    width: 580px;
+}
+
+.post {
+}
+
+.post .date {
+    float: right;
+    width: 70px;
+    margin: 0 15px 0 0;
+    padding: 2px 0;
+    background: #C9E5FC;
+    border: 1px solid #C9E5FC;
+    text-align: center;
+    font-size: 11px;
+    color: #3F4C6B;
+}
+
+.post .date b {
+    display: block;
+    padding: 5px 0;
+    background: #F4FAFE;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.post .title {
+    margin: 0;
+}
+
+.post .meta {
+    margin: 0 0 0 0;
+    color: #B2B7C4;
+}
+
+.post .entry {
+    padding: 20px 0;
+    line-height: 200%;
+}
+
+
+
+#sidebar {
+    float: left;
+    width: 280px;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar li {
+    margin-bottom: 20px;
+    padding: 20px 20px 40px 20px;
+    background: url(../images/img04.jpg) no-repeat;
+}
+
+#sidebar li ul {
+    line-height: 240%;
+}
+
+#sidebar li li {
+    margin: 0;
+    padding: 0;
+    background: none;
+    padding-left: 15px;
+    background: url(../images/img05.gif) no-repeat left center;
+}
+
+#sidebar h2 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+    color: #4F789F;
+}
+
+
+#home {
+    text-transform: capitalize;
+    float: left;
+    width: 520px;
+}
+
+#home ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#home li {
+    margin-bottom: 10px;
+    padding: 20px 20px 40px 20px;
+    background: url(../images/img10.jpg) no-repeat;
+}
+
+#home li ul {
+    line-height: 240%;
+}
+
+#home li li {
+    margin: 0;
+    padding: 0;
+    background: none;
+    padding-left: 15px;
+    background: url(../images/img05.gif) no-repeat left center;
+}
+
+#home h2 {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: #4F789F;
+}
+
+#s {
+    width: 350px;
+    height: 20px;
+}
+#s2 {
+    width: 200px;
+    height: 20px;
+}
+#cpf {
+    width: 200px;
+    height: 20px;
+}
+#rg {
+    width: 200px;
+    height: 20px;
+}
+#data {
+    width: 200px;
+    height: 20px;
+}
+#tdata {
+    width: 200px;
+    height: 20px;
+}
+#nome {
+    width: 200px;
+    height: 20px;
+}
+#telefone {
+    width: 200px;
+    height: 20px;
+}#telefone2 {
+    width: 200px;
+    height: 20px;
+}
+#cep {
+    width: 200px;
+    height: 20px;
+}
+
+
+#footer {
+    clear: both;
+    padding: 40px 0;
+    background: #EAF1F7;
+    border-top: 5px solid #A2C9EA;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+    color: #76AEDB;
+}
+
+#footer a {
+    color: #76AEDB;
+}
+#logo2
+{
+
+    position: absolute;
+    top: 0px;
+    left: 65px;
+}
+#hora
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    top: 250px;
+    left: 900px;
+    font-weight:bold;
+    color:#000000;
+    font-size: 17px;
+}
+#session
+{
+    font-weight:bold;
+    color:#000000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    top: 30px;
+    left: 1120px;
+}
+
+#pindex
+{
+
+    position: absolute;
+    top: 500px;
+    left: 1120px;
+}
+
+#sindex
+{
+
+    position: absolute;
+    top: 500px;
+    left: 1020px;
+}
+
+/*#table_listar
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+    color: #000000;
+}*/
+.maiusculo {
+ text-transform: uppercase;
+}

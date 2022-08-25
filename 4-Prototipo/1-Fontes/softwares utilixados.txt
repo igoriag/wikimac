@@ -1,0 +1,5 @@
+xampp 3.2.1
+windows 7 profissional 
+mysql worrkbench 6.2
+netbeans IDE 8.0.1
+astha_community 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/teste.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/formcadastro_funcionario.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/conexao.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/controller/devolverLivroController.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/formcadastroUsuario.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/listarAllLivro.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/listarAllUsuario.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/DTO/emprestimoDTO.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/formcadastro_usuario.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/consulta.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/controller/cadastrarLivroController.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/listarAllEmprestimo.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/formLocarLivro.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/menuAdministrador.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/css/wikimac.css</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/controller/excluirFuncionarioController.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/controller/alterarFuncionarioController.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/DAO/loginDAO.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/DAO/acervoDAO.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/index.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/controller/editarPerfilController.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/DAO/usuarioDAO.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/listarAllEmprestimo_a.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/alterarSenha.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/formcadastro_livro.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/controller/cadastrarFuncionarioController.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/DAO/emprestimoDAO.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/controller/locarLivroController.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/listarAllEmprestimo_u.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/controller/alterarUsuarioController.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/js/java_script.js</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/menuBibliotecario.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/controller/cadastrarUsuarioController.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/menuUsuario.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/formAlterarFuncionario.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/listarAllFuncionario.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/formAlterarLivro.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/wikimac.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/conta.php</file>
+            <file>file:/B:/xamppp/htdocs/wikimac/view/formAlterarUsuario.php</file>
+        </group>
+    </open-files>
+</project-private>

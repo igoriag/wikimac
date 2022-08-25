@@ -1,0 +1,15 @@
+*{ margin: 0; padding: 0; font-family:Verdana, Geneva, sans-serif;} 
+
+p{ text-align:center;}
+
+select{ cursor: pointer; }
+
+label{ color:#000000; font-weight: bold; font-size: 15px; line-height: 40px; margin: 20px;}
+
+.destaque{ color: #900; font-weight: bold; font-size: 20px; line-height: 50px; }
+
+.botao{ width: 100px; height: 30px; border-radius: 10px; border:2px solid #900; cursor:pointer; }
+
+.mensagem{ color: #333; font-size: 15px; font-weight: bold; margin: 10px;}
+
+#conteudo{ width: 900px; height: 300px; margin: 10px auto; border-radius: 10px; box-shadow: 5px 5px 5px #990000; background-color: #CCC; border: 1px solid #990000;}
